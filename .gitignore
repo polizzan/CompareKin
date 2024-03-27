@@ -1,0 +1,6 @@
+hfc*
+*.pdf
+*.svg
+*.txt
+*.RData
+.Rproj.user
