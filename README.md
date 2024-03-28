@@ -1,13 +1,13 @@
 # Changing Kinship Structures in East and West Germany Before and After Reunification
 
-## Purpose of this Repository
+## Purpose of This Repository
 The repository **CompareKin** was created to enable the replication of findings reported in:
 
 *Changing Kinship Structures in East and West Germany Before and After Reunification*,
 
 hereafter *our manuscript*.
 
-## Summary of this Repository
+## Summary of This Repository
 
 The `R` code in this repository takes:
 - age-specific fertility rates from the [Human Fertility Database](https://humanfertility.org) (HFD) 
@@ -31,7 +31,7 @@ Finally, the `R` code generates:
 
 All outputs are stored in an automatically generated and time stamped folder **out-country1-country2**. Plots are saved as both *.pdf* and *.svg* files. In addition, there is an option to change the default inputs for the analysis, such as the comparison countries of interest.
 
-## Structure of this Repository
+## Structure of This Repository
 The repository **CompareKin** contains two folders:
 
 ### 1. scripts
