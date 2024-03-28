@@ -17,15 +17,15 @@ for two selected countries to run two-sex time-variant matrix kinship models usi
 
 The `R` code automatically determines the time period for which fertility and mortality information exists for both countries and runs the kinship models for both countries for this overlapping time period only. The `R` code then processes the output from the matrix kinship models and compares the two selected countries graphically. The following graphical outputs are generated:
 1) an age x period plot of the average number of all kin combined in country 1 vs. country 2
-2) a plot of the average number of different kin in country 1 vs. country 2 at four different ages of the focal individual in each year of the overlapping time period 
-3) a plot of the average number of different kin in country 1 vs. country 2 at each age of the focal individual in the last year of the overlapping time period  
+2) a plot of the average number of different kin in country 1 vs. country 2 at each age of the focal individual in the last year  
+3) a plot of the average number of different kin in country 1 vs. country 2 at four different ages of the focal individual in each year 
 4) an age x period plot of the ratio of the average number of different kin in country 1 vs. country 2  
 
 All graphical outputs listed above are generated for both female and male focal individuals. Currently, the graphical results are restricted to focal individuals born after the first year of the overlapping time period.  
 
 Finally, the `R` code generates: 
-1) a plot of the total fertility rate (TFR) and life expectancy at birth (e<sub>0</sub>) in country 1 vs. country 2 during the overlapping time period
-2) a plot of the mean generational length in country 1 vs. country 2 during the overlapping time period
+1) a plot of the total fertility rate (TFR) and life expectancy at birth (e<sub>0</sub>) in country 1 vs. country 2 in each year
+2) a plot of the mean generational length in country 1 vs. country 2 in each year
 3) a file `input.txt` that stores the parameters used for the country comparison
 4) an `R.Data` file containing the outputs from the matrix kinship models
 
@@ -47,7 +47,7 @@ Our main findings are based on age-, sex-, and country-specific data from the [H
 
 HMD and HFD data are distributed under a [Creative Commons Attribution 4.0 International License][cc-by]. Please note the version or downloaded dates above. Data distributed by HMD and HFD may have been updated or revised in the meantime.
 
-## How to Use this Repository
+## How to Use This Repository
 In order to run the `R` code provided in the repository **CompareKin**, please proceed in the following order:
 
 1. Download the repository from `github`. If applicable, unzip the downloaded folder and place it in a location convenient for you. 
